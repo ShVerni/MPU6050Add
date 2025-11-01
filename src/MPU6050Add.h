@@ -156,7 +156,7 @@ class MPU6050Add {
 
 		/// @brief Gets the Z angle calculated from the accelerometer alone
 		/// @return A float with the angle in degrees
-		float getAccAngleZ(){ return angleAccZ; };
+		// float getAccAngleZ(){ return angleAccZ; }; // This is never updated
 
 		/// @brief Gets the X angle calculated from the gyroscope alone
 		/// @return A float with the angle in degrees
@@ -290,7 +290,7 @@ class MPU6050Add {
 		float temp, accX, accY, accZ, gyroX, gyroY, gyroZ;
 
 		/// @brief Stores calculated angle readings
-		float angleGyroX, angleGyroY, angleGyroZ, angleAccX, angleAccY, angleAccZ;
+		float angleGyroX, angleGyroY, angleGyroZ, angleAccX, angleAccY; // angleAccZ is never used
 
 		/// @brief Stores composite angle (angleGyro combined with angleAcc)
 		float angleX, angleY, angleZ;
