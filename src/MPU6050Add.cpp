@@ -45,8 +45,12 @@ bool MPU6050Add::begin() {
 void MPU6050Add::resetAngles() {
 	angleGyroX = 0;
 	angleGyroY = 0;
+	angleGyroZ = 0;
 	angleX = 0;
 	angleY = 0;
+	angleZ = 0;
+	angleAccX = 0;
+	angleAccY = 0;
 	preInterval = millis();
 }
 
