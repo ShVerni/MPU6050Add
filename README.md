@@ -1,7 +1,7 @@
 # MPU6050Add
 Advanced Arduino library for easy communicating with the MPU6050.
 
-While the [Adafruit library](https://github.com/adafruit/Adafruit_MPU6050/) is excellent, especially if using more than one of their sensors, it has a fair bit of overhead. The library by [tockn](https://github.com/tockn) is much lighter weight, by lacks many features and is not very flexible. This library aims to combine the best of both of these libraries. This is a stand alone library with access to all of the MPU6050 features as provided by the Adafruit library.
+While the [Adafruit library](https://github.com/adafruit/Adafruit_MPU6050/) is excellent, especially if using more than one of their sensors, it has a fair bit of overhead. The library by [tockn](https://github.com/tockn) is much lighter weight, by lacks many features and is not very flexible. This library aims to combine the best of both of these libraries. This is a standalone library with access to all of the MPU6050 features as provided by the Adafruit library.
 
 > [!CAUTION]
 > This library is very much in progress; not all of the registers and settings for the MPU6050 have been tested.
