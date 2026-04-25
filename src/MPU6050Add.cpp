@@ -225,7 +225,7 @@ MPU6050Add::cycle_rate MPU6050Add::getCycleRate(void) {
 }
 
 /// @brief Sets the frequency of measurement in Cycle mode
-/// @param rate The specifying the desired measurement rate
+/// @param rate The measurement rate
 void MPU6050Add::setCycleRate(cycle_rate rate) {
 	writeBits(MPU6050_PWR_MGMT_2, rate, (uint8_t)CYCLE_RATE_MASK);
 }
